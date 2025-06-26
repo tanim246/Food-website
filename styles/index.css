@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.food-main-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
+.food-main-cards .food-crd{
+    background-color: white;
+    border: 1px solid black;
+    /* padding: 16px; */
+    border-radius: 10px;
+}
+
+ .food-main-cards .food-crd .food-imgg img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+.food-main-cards .contant{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.food-main-cards  .contant .food-btn , .food-prize{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 12px;
+}
+ .food-main-cards  .food-crd .contant .food-btn  button {
+    background-color: green;
+    color: white;
+    padding: 6px 20px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.food-prize p{
+    font-size: 20px;
+}
