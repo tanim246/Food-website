@@ -30,31 +30,31 @@ body {
 }
 
 .main-header h1 i {
-  color: #0da45c;
+  color: green;
   font-size: 2.5rem;
 }
 
 .main-header h1 span {
-  color: #0da45c;
+  color: green;
   font-size: 2rem;
 }
 .main-header ul {
   display: flex;
   list-style-type: none;
   gap: 2rem;
-  color: #0da45c;
+  color: green;
   align-items: center;
   cursor: pointer;
   font-weight: 700;
 }
 
 .main-header ul a {
-  color: #0da45c;
+  color:green;
   text-decoration: none;
 }
 
 .button {
-  background-color: #0da45c;
+  background-color: green;
   color: white;
   padding: 0.7rem 1.2rem;
   border-radius: 0.7rem;
@@ -88,7 +88,7 @@ body {
 }
 
 .hero-text span {
-  color: #0da45c;
+  color: green;
 }
 
 .hero-text p {
@@ -97,7 +97,7 @@ body {
 }
 
 .hero-button {
-  background-color: #0da45c;
+  background-color: green;
   color: white;
   padding: 0.5rem 1rem;
   border-radius: 0.3rem;
@@ -122,7 +122,7 @@ body {
 }
 .hero-button-t i {
   font-size: 1.1rem;
-  color: #0da45c;
+  color:green;
 }
 
 .hero-image img {
@@ -156,7 +156,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.food-main-cards .contant .food-btn,
+
 .food-prize {
   display: flex;
   flex-direction: column;
@@ -164,7 +164,7 @@ body {
   padding-bottom: 12px;
 }
 .food-main-cards .food-crd .contant .food-btn button {
-  background-color: #0da45c;
+  background-color: green;
   color: white;
   padding: 6px 20px;
   border: none;
@@ -206,13 +206,13 @@ body {
   width: 30%;
   padding: 10px 5px;
   border-radius: 10px;
-  background-color: #0da45c;
+  background-color: green;
   color: white;
   border: none;
 }
 
 .main-footer-container {
-  background-color: #0da45c;
+  background-color: green;
   color: white;
   margin: 0;
   padding: 40px 0;
@@ -228,7 +228,6 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 10px;
-  
 }
 
 .social-icon {
@@ -252,35 +251,65 @@ body {
 
 /* team member */
 
-.member-details{
+.member-details {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
   margin-top: 30px;
-  border:  2px solid #0da45c;
-  padding:  5px 20px;
-  background-color: #c5fce2;
+  border: 2px solid green;
+  padding: 15px 30px;
+ 
   border-radius: 6px;
 }
 
-.member-info{
+.member-info {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
 }
 
+/* second part food */
 
+.main-food-container {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+.image-contant img {
+  width: 100%;
+  border-radius: 50%;
+  gap: 24px;
+}
+.text-contant {
+  width: 100%;
+  gap: 20px;
+}
 
+.text-contant h1 {
+  font-size: 2rem;
+  color: black;
+  gap: 10px;
+}
+.text-contant p {
+  font-size: 1rem;
+  color: grey;
+  margin: 20px;
+}
 
-
-
-
+.text-contant button {
+  background-color: green;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  gap: 10px;
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 700px) {
-
- 
   .navbar-section .main-header {
     flex-direction: column;
     gap: 20px;
@@ -302,23 +331,34 @@ body {
     padding: 20px;
   }
 
-  .main-section{
+  .main-section {
     flex-direction: column-reverse;
   }
 
-.team-members{
-  padding: 20px;
-}
-  .member-details{
+  .team-members {
+    padding: 20px;
+  }
+  .member-details {
     flex-direction: column-reverse;
     padding-top: 20px;
-    
   }
-  .member-info{
+  .member-info {
     text-align: center;
   }
-   .pp-icon{
+  .pp-icon {
     justify-content: center;
     margin-bottom: 10px;
+  }
+
+  .main-food-container{
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+  .main-food-container .text-contant{
+    text-align: center;
+   
+  }
+  .main-section .content{
+    text-align: center;
   }
 }
