@@ -361,4 +361,13 @@ body {
   .main-section .content{
     text-align: center;
   }
+
+
+
+  .biryani-part {
+          flex-direction: column;
+          text-align: center;
+          padding: 10px;
+        }
 }
+
